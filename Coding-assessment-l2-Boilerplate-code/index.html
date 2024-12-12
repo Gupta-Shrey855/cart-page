@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">Marmeto</div>
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <nav class="icons">
+        <ul>
+            <li><a href="#" class="cart-link">🛒</a></li>
+            <li><a href="#" class="search-icon">🔍</a></li>
+            <li><a href="#" class="heart-icon">❤️</a></li>
+        </ul>
+    </nav>
+  </header>
+
+
+  <div class="breadcrumb">
+    <h3 class="breadcrumb-h">Cart</h3>
+    <a href="#">Home</a> &gt; <a href="#">Cart</a>
+  </div>
+
+
+  <main class="cart-container">
+    <section class="cart-items">
+      <div class="cart-table">
+        <div class="table-header">
+          <span>Product</span>
+          <span>Price</span>
+          <span>Quantity</span>
+          <span>Subtotal</span>
+        </div>
+        <div id="cart-list">
+        </div>
+      </div>
+    </section>
+
+    <aside class="cart-summary">
+      <h3>Cart Totals</h3>
+      <div class="summary-item">
+        <span>Subtotal</span>
+        <span>₹<span id="subtotal">0</span></span>
+      </div>
+      <div class="summary-item total">
+        <span>Total</span>
+        <span>₹<span id="total">0</span></span>
+      </div>
+      <button id="checkout-btn">Check Out</button>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <div class="services">
+      <div>High Quality</div>
+      <div>Warranty Protection</div>
+      <div>Free Shipping</div>
+      <div>24/7 Support</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
